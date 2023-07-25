@@ -1,0 +1,31 @@
+{
+    "python.terminal.activateEnvironment": true,
+    
+    // Settings for live sass compiler
+    "liveSassCompile.settings.formats": [
+
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/src/css",
+        },
+
+        // {
+        //     "format": "compressed",
+        //     "extensionName": ".min.css",
+        //     "savePath": "/src/css",
+        // }
+    ],
+
+    // exclusion list
+    "liveSassCompile.settings.excludeList": [ 
+        "/node_modules/**",
+        "/.vscode/**",
+        "/public/**",
+        "/src/**",
+    ],
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.port": 5501,
+    "liveServer.settings.root": "/"
+}
